@@ -1,3 +1,12 @@
+# Author
+-[Reilly](https://github.com/reilly-codes/)
+
+### gh-pages
+ https://reilly-codes.github.io/quotify/
+
+ # ABOUT
+ Project on quotes for sorting according to most liked votes
+
 # Quotify
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 10.0.6.
