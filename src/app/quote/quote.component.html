@@ -1,0 +1,25 @@
+<div class="container">
+    <div class="card mt-2">
+        <div class="container">
+            <div class="quote">
+                <div class="title mt-3">
+                    <h5 class="text-center text-uppercase text-primary mt-2"> {{ quote.title }} </h5>
+                </div>
+                <br>
+                <button type="button" class="btn btn-outline-primary btn-block mb-2" (click)='toggle()'>{{ show? 'Hide': "Show More"}}</button>
+                <ng-container *ngIf="show">
+                    <div>
+                        <div class="description">
+                            <p>{{ quote.description }}</p>
+                        </div>
+                        <div class="author">
+                            <p class="text-right d-block"><em> {{ quote.author }} </em></p>
+                        </div>
+                    </div>
+                </ng-container>
+            </div>
+            <br>
+            <app-vote [quote]="quote"></app-vote>
+        </div>
+    </div>
+</div>

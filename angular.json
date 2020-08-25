@@ -119,6 +119,10 @@
           }
         }
       }
-    }},
-  "defaultProject": "quotify"
+    }
+  },
+  "defaultProject": "quotify",
+  "cli": {
+    "analytics": false
+  }
 }
